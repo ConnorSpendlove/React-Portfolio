@@ -1,15 +1,59 @@
-export default function About() {
+import React from 'react';
+import avatar from './avatar.png'; // import your avatar image
+
+const About = () => {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div style={styles.container}>
+      <div style={styles.avatarContainer}>
+        <img src={avatar} alt="Avatar" style={styles.avatar} />
+      </div>
+      <div style={styles.content}>
+        <h1 style={styles.heading}>About Me</h1>
+        <p style={styles.paragraph}>
+          My name is Connor Spendlove. Originally from Fillmore, Utah, I now call Cedar City home. I'm on the verge of completing the Full-Stack Development Bootcamp at the University of Utah and eagerly look forward to starting my Computer Science journey at Southern Utah University. Driven by a profound passion for technology, my ultimate aspiration is to excel as a Fullstack software developer.
+        </p>
+      </div>
     </div>
   );
-}
+};
+
+const styles = {
+  container: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'column',
+    padding: '20px',
+    backgroundColor: '#f7f7f7',
+    minHeight: '100vh',
+  },
+  avatarContainer: {
+    marginBottom: '20px',
+  },
+  avatar: {
+    width: '150px',
+    height: '150px',
+    borderRadius: '50%',
+    boxShadow: '0px 0px 10px 0px rgba(0,0,0,0.75)',
+  },
+  content: {
+    textAlign: 'center',
+    maxWidth: '600px',
+  },
+  heading: {
+    color: '#333',
+    fontSize: '32px',
+    marginBottom: '20px',
+    fontFamily: 'Arial, sans-serif',
+    textTransform: 'uppercase',
+    letterSpacing: '2px',
+  },
+  paragraph: {
+    color: '#555',
+    fontSize: '18px',
+    lineHeight: '1.6',
+    fontFamily: 'Arial, sans-serif',
+  },
+};
+
+export default About;
