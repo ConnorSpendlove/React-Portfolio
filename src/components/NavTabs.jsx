@@ -105,13 +105,14 @@ const styles = {
   link: {
     color: '#fff',
     textDecoration: 'none',
-    transition: 'background-color 0.3s',
+    transition: 'background-color 0.3s', 
     height: '100%',
     display: 'flex',
     alignItems: 'stretch',
     justifyContent: 'center',
     padding: '25px 1px',
   },
+
 };
 
 export default NavTabs;

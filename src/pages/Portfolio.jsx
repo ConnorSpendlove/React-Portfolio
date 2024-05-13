@@ -65,6 +65,7 @@ const styles = {
     color: '#fff',
     fontSize: '35px',
     marginBottom: '10px',
+    textShadow: '2px 2px 5px rgba(0, 0, 0, 0.5)',
   },
   paragraph: {
     color: '#fff',

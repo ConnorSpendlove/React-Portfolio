@@ -27,19 +27,20 @@ const styles = {
   container: {
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'flex-start',
+    alignItems: 'center', // Center vertically
     flexDirection: 'column',
     backgroundColor: '#75b9be',
-    minHeight: '100vh', // Adjusted to cover the entire viewport height
-    padding: '50px', // Added padding for spacing
+    minHeight: '100vh',
+    padding: '50px',
   },
   card: {
     display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#2c4f5c', // Darker shade of blue
+    flexDirection: 'column',
+    alignItems: 'center', // Center horizontally
+    backgroundColor: '#2c4f5c',
     borderRadius: '8px',
     padding: '30px',
+    maxWidth: '90%', // Adjusted to be a percentage of the viewport width
     marginBottom: '40px',
   },
   avatarContainer: {
@@ -47,7 +48,7 @@ const styles = {
     height: '150px',
     borderRadius: '50%',
     boxShadow: '0px 0px 10px 0px rgba(0,0,0,0.75)',
-    marginLeft: '20px', // Moved avatar to the right
+    marginTop: '20px',
   },
   avatar: {
     width: '100%',
@@ -57,7 +58,7 @@ const styles = {
   },
   content: {
     textAlign: 'center',
-    flex: '1', // Added flex to make it expand
+    marginBottom: '20px', // Added margin bottom to separate from avatar
   },
   heading: {
     color: '#fff',
@@ -66,15 +67,14 @@ const styles = {
     fontFamily: 'Arial, sans-serif',
     textTransform: 'uppercase',
     letterSpacing: '1px',
-    textShadow: '2px 2px 5px rgba(0, 0, 0, 0.5)', // Added text shadow
-    marginLeft: "140px"
+    textShadow: '2px 2px 5px rgba(0, 0, 0, 0.5)',
   },
   paragraph: {
     color: '#fff',
     fontSize: '18px',
     lineHeight: '1.6',
     fontFamily: 'Arial, sans-serif',
-    marginBottom: '0', // Removed bottom margin
+    marginBottom: '0',
   },
   expandImage: {
     width: '100%',
@@ -82,10 +82,10 @@ const styles = {
   },
   suuImage: {
     maxWidth: '100%',
-    maxHeight: '500px', // Adjusted max height
+    maxHeight: '500px',
     borderRadius: '8px',
     boxShadow: '0px 0px 10px 0px rgba(0,0,0,0.75)',
-    marginTop: '20px', // Added margin top
+    marginTop: '20px',
   },
 };
 
