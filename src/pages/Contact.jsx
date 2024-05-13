@@ -113,7 +113,7 @@ const Contact = () => {
 const styles = {
   container: {
     display: 'flex',
-    justifyContent: 'center',
+    flexDirection: 'column',
     alignItems: 'center',
     minHeight: '100vh',
     padding: '20px',
@@ -124,7 +124,9 @@ const styles = {
     borderRadius: '8px',
     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)',
     padding: '20px',
-    margin: '0 10px',
+    margin: '10px',
+    width: '100%', // Added to make it responsive
+    maxWidth: '400px', // Added to limit width on larger screens
   },
   form: {
     display: 'flex',
@@ -135,6 +137,7 @@ const styles = {
     padding: '10px',
     borderRadius: '4px',
     border: '1px solid #ccc',
+    width: '100%', // Added to make it responsive
   },
   button: {
     backgroundColor: '#007bff',

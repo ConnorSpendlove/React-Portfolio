@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer style={styles.footer}>
       <div style={styles.imageContainer}>
-        <a href="https://github.com/ConnorSpendlove" onMouseEnter={() => setGithubColor('#FFD700')} onMouseLeave={() => setGithubColor('#000000')}>
+        <a href="https://github.com/ConnorSpendlove" target = "_blank" onMouseEnter={() => setGithubColor('#FFD700')} onMouseLeave={() => setGithubColor('#000000')}>
           <img 
             src={github} 
             alt="github logo" 
@@ -22,7 +22,7 @@ export default function Footer() {
             }} 
           />
         </a>
-        <a href="https://www.linkedin.com/in/connor-spendlove-0887a7299/" onMouseEnter={() => setLinkedinColor('#FFD700')} onMouseLeave={() => setLinkedinColor('#000000')}>
+        <a href="https://www.linkedin.com/in/connor-spendlove-0887a7299/" target = "_blank" onMouseEnter={() => setLinkedinColor('#FFD700')} onMouseLeave={() => setLinkedinColor('#000000')}>
           <img 
             src={linkedin} 
             alt="linkedin logo" 
@@ -33,7 +33,7 @@ export default function Footer() {
             }} 
           />
         </a>
-        <a href="https://www.instagram.com/connorspendlove1/" onMouseEnter={() => setInstagramColor('#000')} onMouseLeave={() => setInstagramColor('#000000')}>
+        <a href="https://www.instagram.com/connorspendlove1/" target = "_blank" onMouseEnter={() => setInstagramColor('#000')} onMouseLeave={() => setInstagramColor('#000000')}>
           <img 
             src={instagram} 
             alt="instagram" 
