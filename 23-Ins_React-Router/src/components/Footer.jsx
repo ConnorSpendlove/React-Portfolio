@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import image1 from '../assets/image1.png';
-import image2 from '../assets/image2.png';
+import github from '../assets/github.png';
+import linkedin from '../assets/linkedin.png';
 
 export default function Footer() {
   const [imageColor, setImageColor] = useState('#000000'); // Default color
@@ -13,8 +13,8 @@ export default function Footer() {
   return (
     <footer style={styles.footer}>
       <div style={styles.imageContainer}>
-        <img src={image1} alt="Image 1" style={{ ...styles.image, filter: `invert(${imageColor === '#000000' ? 1 : 0})` }} />
-        <img src={image2} alt="Image 2" style={{ ...styles.image, filter: `invert(${imageColor === '#000000' ? 1 : 0})` }} />
+        <img src={github} alt="github logo" style={{ ...styles.image, filter: `invert(${imageColor === '#000000' ? 1 : 0})` }} />
+        <img src={linkedin} alt="linkedin logo" style={{ ...styles.image, filter: `invert(${imageColor === '#000000' ? 1 : 0})` }} />
       </div>
     </footer>
   );
