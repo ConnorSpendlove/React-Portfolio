@@ -37,7 +37,7 @@ const styles = {
   container: {
     display: 'flex',
     alignItems: 'center',
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#Aab094',
     borderRadius: '8px',
     boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)',
     marginBottom: '20px',
@@ -46,6 +46,7 @@ const styles = {
   },
   containerHover: {
     transform: 'scale(1.01)', // Increase size on hover
+    backgroundColor: "#C0c7a4"
   },
   image: {
     width: '100px',
@@ -60,12 +61,13 @@ const styles = {
   title: {
     margin: '0',
     fontSize: '24px',
-    color: '#333333',
+    color: '#fff',
+    textShadow: '2px 2px 5px rgba(0, 0, 0, 0.5)',
   },
   description: {
     margin: '10px 0 0',
     fontSize: '16px',
-    color: '#666666',
+    color: '#fff',
   },
   link: {
     textDecoration: 'none',
