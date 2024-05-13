@@ -12,7 +12,7 @@ const Portfolio = () => {
       <div style={styles.card}>
         <h1 style={styles.heading}>View My Portfolio!</h1>
         <p style={styles.paragraph}>
-          Explore a curated selection of my favorite projects, each representing a milestone in my coding journey.
+          Explore a curated selection of my favorite  projects, each representing a milestone in my coding journey.
         </p>
       </div>
       <PortfolioItem
@@ -55,19 +55,19 @@ const styles = {
     backgroundColor: "#d0d6b5",
   },
   card: {
-    backgroundColor: '#E8eae5', // Slightly darker shade
+    backgroundColor: '#4e5146', // Slightly darker shade
     padding: '20px',
     borderRadius: '8px',
     textAlign: 'center',
     marginBottom: '20px', // Added margin bottom for spacing
   },
   heading: {
-    color: '#000',
+    color: '#fff',
     fontSize: '35px',
     marginBottom: '10px',
   },
   paragraph: {
-    color: '#000',
+    color: '#fff',
     fontSize: '18px',
     lineHeight: '1.6',
   },

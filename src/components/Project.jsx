@@ -37,7 +37,7 @@ const styles = {
   container: {
     display: 'flex',
     alignItems: 'center',
-    backgroundColor: '#Aab094',
+    backgroundColor: '#909582',
     borderRadius: '8px',
     boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)',
     marginBottom: '20px',
