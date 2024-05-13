@@ -1,12 +1,11 @@
 import React from 'react';
-import ResumeDownload from '../assets/ConnorSpendlovesResume.pdf';
 
 const Resume = () => {
   return (
     <div style={styles.container}>
       <h2 style={styles.heading}>Resume</h2>
       <p style={styles.text}>Download my resume:</p>
-      <a href={ResumeDownload} target="_blank" rel="noopener noreferrer" style={styles.link}>
+      <a href="../assets/Connor Spendlove's Resume.pdf" target="_blank" rel="noopener noreferrer" style={styles.link}>
         Download Resume
       </a>
       <h3 style={styles.subheading}>Proficiencies</h3>
