@@ -23,9 +23,10 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'column',
-    padding: '20px',
-    backgroundColor: '#f7f7f7',
-    minHeight: '100vh',
+    backgroundColor: '#75b9be',
+    minHeight: '100vh', // Adjusted to cover the entire viewport height
+    padding: '0', // Removed padding
+    margin: '0', // Removed margin
   },
   avatarContainer: {
     marginBottom: '20px',
