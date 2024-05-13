@@ -15,6 +15,7 @@ const Portfolio = () => {
           Explore a curated selection of my favorite  projects, each representing a milestone in my coding journey.
         </p>
       </div>
+      {/* Portfolio Components */}
       <PortfolioItem
         title="Digital Deal Hunt"
         description="A website to scout out the best video games deals."

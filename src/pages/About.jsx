@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../assets/avatar.png'; // import your avatar image
+import avatar from '../assets/avatar.png'; // import avatar image
 import suuImage from '../assets/suuCampus.png'; // import SUU campus image
 
 const About = () => {

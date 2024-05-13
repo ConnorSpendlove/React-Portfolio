@@ -58,12 +58,14 @@ const Contact = () => {
             value={formData.name}
             onChange={handleChange}
             onBlur={() => {
+              // Validation
               if (!formData.name.trim()) {
                 setErrors((prevErrors) => ({ ...prevErrors, name: 'Name is required' }));
               }
             }}
             style={styles.input}
           />
+          {/* Email Validation */}
           {errors.name && <p style={styles.error}>{errors.name}</p>}
           <input
             type="email"
@@ -73,6 +75,7 @@ const Contact = () => {
             onChange={handleChange}
             onBlur={() => {
               const { email } = formData;
+              // Regex
               if (!email.trim() || !/\S+@\S+\.\S+/.test(email)) {
                 setErrors((prevErrors) => ({ ...prevErrors, email: 'Please enter a valid email address' }));
               }

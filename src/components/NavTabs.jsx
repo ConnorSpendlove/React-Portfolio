@@ -17,6 +17,7 @@ function NavTabs() {
       <div style={styles.headerLeft}>
         <h1 style={styles.title}>Connor Spendlove</h1>
       </div>
+      {/* color of tab matches color of background of page */}
       <nav style={styles.nav}>
         <ul className="nav justify-content-end" style={styles.navList}>
           <li className="nav-item" style={{ ...styles.navItem, backgroundColor: activeTabColor === '#75b9be' ? '#75b9be' : '#000000' }}>
